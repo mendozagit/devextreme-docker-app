@@ -1,0 +1,41 @@
+# Ignorar node_modules - ya que se volverán a instalar durante la construcción
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignorar archivos y carpetas de configuración de herramientas locales
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de Git
+.git
+.gitignore
+
+# Ignorar carpetas de build o output local
+dist
+out-tsc
+coverage
+
+# Ignorar archivos temporales y de caché
+.temp
+.cache
+*.log
+
+# Ignorar configuración de CI/CD local
+*.yml
+*.yaml
+.gitlab-ci.yml
+
+# Ignorar archivos y carpetas específicos de pruebas locales
+e2e
+tests
+cypress
+*.spec.ts
+*.test.ts
